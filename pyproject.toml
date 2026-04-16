@@ -1,0 +1,16 @@
+[project]
+name = "khalgebra"
+version = "0.1.0"
+description = "Provably-optimal bilinear algorithms for symmetric linear algebra"
+authors = [{name = "Mahmood Khalil"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["jax>=0.4", "jaxlib>=0.4"]
+keywords = ["linear-algebra", "blas", "dsymv", "riemann", "bilinear", "optimal", "jax"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "numpy"]
+
+[project.urls]
+Homepage = "https://github.com/khalil/khalgebra"
