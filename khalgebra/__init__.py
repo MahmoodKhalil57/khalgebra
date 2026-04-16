@@ -6,7 +6,7 @@ Author: Mahmood Khalil (2025)
 import jax
 jax.config.update("jax_enable_x64", True)
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Mahmood Khalil"
 
 from khalgebra.dsymv import khal_dsymv, naive_dsymv

@@ -1,9 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "khalgebra"
-version = "0.1.0"
+version = "0.1.1"
 description = "Provably-optimal bilinear algorithms for symmetric linear algebra"
 authors = [{name = "Mahmood Khalil"}]
-license = {text = "MIT"}
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: The Unlicense (Unlicense)"]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["jax>=0.4", "jaxlib>=0.4"]
